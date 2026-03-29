@@ -3,7 +3,7 @@ cask "deltascope" do
   name "deltascope"
   desc "Offline SQL review for MySQL and TiDB"
   homepage "https://github.com/Fanduzi/DeltaScope"
-  version "0.9.2"
+  version "0.10.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "deltascope" do
   on_macos do
     on_intel do
       url "https://github.com/Fanduzi/DeltaScope/releases/download/v#{version}/deltascope_#{version}_darwin_amd64.tar.gz"
-      sha256 "88fde6fec47eda3f1fae089fd89b559f1ceeb4f801b968a0ec0f46158e112494"
+      sha256 "be3000c624e6da82abbe73c952bb69de0decd806e5569cc0731da7833cad1d9b"
     end
     on_arm do
       url "https://github.com/Fanduzi/DeltaScope/releases/download/v#{version}/deltascope_#{version}_darwin_arm64.tar.gz"
-      sha256 "24e3c600a658bd4c8efca0486bd6a6a901fad40b73a5989eccfeb69884a07970"
+      sha256 "b5ec293c68acc7467692b0254a9fc9cec519a3198838656512ee8bd22f6b7ba7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Fanduzi/DeltaScope/releases/download/v#{version}/deltascope_#{version}_linux_amd64.tar.gz"
-      sha256 "a532769fafe2ffa60a1b7d6de4dfc5e6d77302b2ac4c6f3569c4f38dc0cf33f9"
+      sha256 "307894f3266b020ad2280312374f99b88c113504791befae3b0086494693d8fd"
     end
     on_arm do
       url "https://github.com/Fanduzi/DeltaScope/releases/download/v#{version}/deltascope_#{version}_linux_arm64.tar.gz"
-      sha256 "718e8e07dd0db8252484e3086232f0af7f9909ab3d9abe888549b91f889dd4f8"
+      sha256 "2e3e1e790ddd904631a2d3817f5583ac0bc7e09ff50f328bb0a99c2a0059c564"
     end
   end
 
