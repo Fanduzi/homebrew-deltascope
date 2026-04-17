@@ -5,11 +5,11 @@ cask "deltascope" do
   on_macos do
     on_intel do
       url "https://github.com/Fanduzi/DeltaScope/releases/download/v#{version}/deltascope_#{version}_darwin_amd64.tar.gz"
-      sha256 "dff897698f76e93a81c623302598daddde8177dc2e8a37f03074fce7dbefbfc0"
+      sha256 "676979197cfe2b6b54ed523044a6de92760ab3eaafc8d6e79f4a266e02d12b64"
     end
     on_arm do
       url "https://github.com/Fanduzi/DeltaScope/releases/download/v#{version}/deltascope_#{version}_darwin_arm64.tar.gz"
-      sha256 "1e52c926088dfed61247c9a21f3caf2aedfec1392a4e64714736f732af311af3"
+      sha256 "3cdaf68b43b6fd8e26fdaa813c64e1ffef4ff8999d8fff0e414ac7832d207e70"
     end
   end
 
